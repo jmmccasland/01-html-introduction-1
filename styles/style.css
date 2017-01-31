@@ -5,7 +5,7 @@ body {
 }
 
 ul {
-  padding 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -198,7 +198,7 @@ figure {
 }
 
 .circle-icon--warning {
-  background #d25555;
+  background: #d25555;
 }
 
 .quote {
@@ -212,7 +212,7 @@ figure {
 .quote__card {
   position: relative;
   padding: 0.5rem;
-  border-radius 0.1rem;
+  border-radius: 0.1rem;
   background: #fff;
   filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2));
 }
@@ -224,12 +224,12 @@ figure {
   top: 100%;
   left: 1rem;
   border: 1rem solid transparent;
-  border-bottom 0;
+  border-bottom: 0;
   border-top: 0.8rem solid #fff;
 }
 
 .quote__text {
-  margin 0;
+  margin: 0;
   font: italic 300 1.2rem Cormorant, serif;
 }
 
@@ -261,7 +261,7 @@ figure {
 
 .quote__title {
   font: 1rem Cormorant;
-  color #777;
+  color: #777;
 }
 
 .text-stack * {
@@ -270,6 +270,6 @@ figure {
 
 @media (max-width: 480px) {
   .grid {
-    flex-direction column;
+    flex-direction: column;
   }
 }
